@@ -1,0 +1,21 @@
+{
+  "void": {
+    "category": "music",
+    "subtitle": "subtitles.void",
+    "sounds": [
+      {
+        "name": "an_alternative_path:void",
+        "stream": true
+      }
+    ]
+  },
+  "death": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "an_alternative_path:death",
+        "stream": true
+      }
+    ]
+  }
+}

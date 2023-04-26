@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "DEATH",
+    "texture": "portalsdisc",
+    "description": "DEATH",
+    "creativeTab": {
+      "value": "CUSTOM:Aaptab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:death"
+    },
+    "lengthInTicks": 6240,
+    "analogOutput": 0
+  }
+}

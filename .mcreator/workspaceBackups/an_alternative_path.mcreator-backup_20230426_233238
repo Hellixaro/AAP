@@ -1,0 +1,160 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheVoid",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/an_alternative_path/models/item/the_void.json",
+          "src/main/java/net/mcreator/analternativepath/item/TheVoidItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_discs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheDeath",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/item/TheDeathItem.java",
+          "src/main/resources/assets/an_alternative_path/models/item/the_death.json"
+        ]
+      }
+    },
+    {
+      "name": "Fairyslime",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairyslime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/item/FairyslimeItem.java",
+          "src/main/resources/assets/an_alternative_path/models/item/fairyslime.json"
+        ]
+      }
+    },
+    {
+      "name": "Fairyslimeloose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairyslimeloose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/procedures/FairyslimelooseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FairyHunter",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_hunter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/enchantment/FairyHunterEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "FairySlimeWithFlower",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_slime_with_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/item/FairySlimeWithFlowerItem.java",
+          "src/main/resources/assets/an_alternative_path/models/item/fairy_slime_with_flower.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "void",
+      "files": [
+        "void"
+      ],
+      "category": "music",
+      "subtitle": "A rather mysterious musical masterpiece."
+    },
+    {
+      "name": "death",
+      "files": [
+        "death"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "enchantment.an_alternative_path.fairy_hunter": "Fairy Hunter",
+      "item.an_alternative_path.fairy_slime_with_flower": "Fairy Slime With Flower",
+      "item.an_alternative_path.the_void.desc": "VOID",
+      "item.an_alternative_path.the_death": "DEATH",
+      "item.an_alternative_path.the_death.desc": "DEATH",
+      "subtitles.death": "",
+      "item.an_alternative_path.the_void": "VOID",
+      "itemGroup.tabmusic_discs": "Music Discs",
+      "item.an_alternative_path.fairyslime": "Fairy Slime",
+      "subtitles.void": "A rather mysterious musical masterpiece."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "an_alternative_path",
+    "modName": "An alternative path",
+    "version": "1.0.0",
+    "author": "Hellixaro",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.analternativepath",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

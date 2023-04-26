@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "VOID",
+    "texture": "portalsdisc",
+    "description": "VOID",
+    "creativeTab": {
+      "value": "CUSTOM:Aaptab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:void"
+    },
+    "lengthInTicks": 5080,
+    "analogOutput": 0
+  }
+}
