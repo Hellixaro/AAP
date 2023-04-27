@@ -15,16 +15,6 @@
       }
     },
     {
-      "name": "MusicDiscs",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "music_discs",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "TheDeath",
       "type": "musicdisc",
       "sortid": 1,
@@ -73,6 +63,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "FairyHunter",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_hunter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/analternativepath/enchantment/FairyHunterEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursedfairyslime",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedfairyslime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/an_alternative_path/models/item/cursedfairyslime.json",
+          "src/main/java/net/mcreator/analternativepath/item/CursedfairyslimeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aaptab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaptab",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -96,12 +122,14 @@
   ],
   "language_map": {
     "en_us": {
+      "enchantment.an_alternative_path.fairy_hunter": "Fairy Hunter",
       "item.an_alternative_path.the_void.desc": "VOID",
       "item.an_alternative_path.the_death": "DEATH",
       "item.an_alternative_path.the_death.desc": "DEATH",
       "subtitles.death": "",
       "item.an_alternative_path.the_void": "VOID",
-      "itemGroup.tabmusic_discs": "Music Discs",
+      "itemGroup.tabaaptab": "An alternative path",
+      "item.an_alternative_path.cursedfairyslime": "Cursedfairyslime",
       "item.an_alternative_path.fairyslime": "Fairy Slime",
       "subtitles.void": "A rather mysterious musical masterpiece."
     }
